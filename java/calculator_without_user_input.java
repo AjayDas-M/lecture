@@ -1,5 +1,5 @@
 //calculator without user input
-class sum
+class calculator_without_user_input
 {
 	public static void main(String[] args)
 	{
