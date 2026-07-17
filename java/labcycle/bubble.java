@@ -1,19 +1,25 @@
+import java.util.Scanner;
 class bubble
 {
     public static void main(String[] args)
     {
-        int i, j, temp;
+		Scanner sc = new Scanner(System.in);
+        int n, i, j, temp;
+		System.out.print("Enter the size of the array : ");
+		n = sc.nextInt();
+		
 
-        int[] arr = {3, 2, 1};
+        int[] arr = new int[n];
 
-        for(i = 0; i < 3; i++)
-            System.out.print(arr[i] + " ");
+        for(i = 0; i < n; i++)
+            arr[i] = sc.nextInt();
+			
 
         System.out.println();
 
-        for(i = 0; i < 3; i++)
+        for(i = 0; i < n; i++)
         {
-            for(j = 0; j < 2; j++)
+            for(j = 0; j < n-1; j++)
             {
                 if(arr[j] > arr[j+1])
                 {
@@ -24,7 +30,7 @@ class bubble
             }
         }
 
-        for(i = 0; i < 3; i++)
+        for(i = 0; i < n; i++)
             System.out.print(arr[i] + " ");
     }
 }
