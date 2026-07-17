@@ -25,7 +25,7 @@ class merge {
         for(i = 0; i < n2; i++)
             arr2[i] = sc.nextInt();
 
-        n = n1 + n2;
+        n = n1 + n2; //assigning the size of merged array
 
         int[] merge_arr = new int[n];
 
