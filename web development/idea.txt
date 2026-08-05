@@ -1,0 +1,230 @@
+If you're teaching **HTML to beginners**, the best approach is to build websites that gradually introduce new tags. Each demo should take **10–20 minutes**, then students get a similar practice exercise.
+
+Here's a lesson plan you can follow.
+
+| Demo | HTML Concepts                                                 | Live Website to Build                          | Student Practice                     |
+| ---- | ------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------ |
+| 1    | `<html>`, `<head>`, `<title>`, `<body>`, headings, paragraphs | My Introduction Page                           | Create "About Me" page               |
+| 2    | Lists (`ul`, `ol`, `li`)                                      | Favorite Movies/Foods                          | Create "Top 5 Places to Visit"       |
+| 3    | Images                                                        | Photo Gallery                                  | Add 5 images with captions           |
+| 4    | Links                                                         | My Profile page with internal & external links | Create Home, Academics, Awards pages |
+| 5    | Tables                                                        | Student Marks Table                            | Employee Information Table           |
+| 6    | Forms                                                         | Student Registration Form                      | College Admission Form               |
+| 7    | Semantic tags                                                 | Personal Portfolio                             | Restaurant Website                   |
+
+## Demonstration 1: About Me
+
+```
+My Profile
+
+Name: John
+Course: BCA
+College: ABC College
+
+My hobbies:
+• Reading
+• Cricket
+• Coding
+```
+
+Concepts:
+
+* h1
+* p
+* br
+* hr
+
+Practice:
+
+> Create your own profile page.
+
+---
+
+## Demonstration 2: Favourite Movies
+
+```
+Favourite Movies
+
+• Avatar
+• Interstellar
+• Bahubali
+• Leo
+• KGF
+```
+
+Teach:
+
+* ul
+* ol
+* li
+
+Practice:
+
+> Create a page showing your favourite foods.
+
+---
+
+## Demonstration 3: Travel Gallery
+
+```
+Travel Gallery
+
+Image 1
+Image 2
+Image 3
+```
+
+Teach:
+
+* img
+* width
+* height
+* alt
+
+Practice:
+
+> Create a gallery of your favourite animals.
+
+---
+
+## Demonstration 4: Internal Linking
+
+```
+Home
+
+Academics
+Awards
+Contact
+```
+
+Files
+
+```
+index.html
+academics.html
+awards.html
+contact.html
+```
+
+Students click each link to move between pages.
+
+Practice:
+
+> Create four pages:
+
+* Home
+* Family
+* Hobbies
+* Contact
+
+---
+
+## Demonstration 5: External Links
+
+```
+Useful Websites
+
+Google
+Wikipedia
+YouTube
+ChatGPT
+```
+
+Teach:
+
+* href
+* target="_blank"
+
+Practice:
+
+> Add five useful websites.
+
+---
+
+## Demonstration 6: Student Marks Table
+
+```
+Roll No | Name | English | Maths | Total
+```
+
+Teach:
+
+* table
+* tr
+* td
+* th
+* border
+
+Practice:
+
+> Create an Employee Salary Table.
+
+---
+
+## Demonstration 7: Registration Form
+
+```
+Name
+Email
+Password
+Gender
+
+Submit
+```
+
+Teach:
+
+* form
+* input
+* radio
+* checkbox
+* textarea
+* select
+* button
+
+Practice:
+
+> Build a College Admission Form.
+
+---
+
+## Final Mini Project (40–60 minutes)
+
+Have students create a **Personal Portfolio Website** with four pages:
+
+```
+Home
+About Me
+Academics
+Gallery
+Contact
+```
+
+Include:
+
+* Headings
+* Paragraphs
+* Images
+* Lists
+* Tables
+* Links
+* Form
+
+This single project reinforces almost every basic HTML concept they've learned.
+
+### Extra practice website ideas
+
+* Resume/CV website
+* Restaurant website
+* College website
+* Travel blog
+* Movie review page
+* Recipe website
+* Book store page
+* Gym website
+* School website
+* Photography portfolio
+* Pet adoption page
+* Music album page
+
+These examples are simple enough for beginners while giving them realistic websites to build and expand as they learn new HTML elements.
