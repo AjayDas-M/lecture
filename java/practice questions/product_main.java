@@ -50,9 +50,9 @@ class product_main
 					String p_name = sc.nextLine();
 					System.out.println("Enter the product price: ");
 					double p_price = sc.nextInt();
-					
-					p[p_count] = new product(p_id,p_name,p_price);
-					p_count++;
+					if(p_count<10)
+						p[p_count] = new product(p_id,p_name,p_price);
+						p_count++;
 					break;
 				case 2:
 					for(int i=0;i<p_count;i++)
