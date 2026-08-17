@@ -1,4 +1,6 @@
-
+/*Create a base class Staff containing attributes name, age, salary, and a method computePay(). 
+Extend this class into two subclasses: Trainer (adding a specialization attribute) and Supervisor (adding a team-size attribute). 
+Override computePay() across the subclasses to display specialized role details alongside base salary, and execute the program by invoking these methods.	*/
 
 class staff
 {
@@ -62,6 +64,6 @@ class staff_main
 		s.computepay();
 		
 		trainer t = new trainer("ajay",24,20000,"teambuilding");
-		s.computepay();
+		t.computepay();
 	}
 }
