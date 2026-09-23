@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function checklogin()
+            {
+                let uname = document.getElementById('uname').value;
+                let pass = document.getElementById('pass').value;
+
+                if(uname=="admin" && pass == "1234")
+                {
+                    alert(":Login Succesfull");
+                    window.location.href = "home.html";
+                }
+                else{
+                    alert(":Login UnSuccesfull");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <h1>Login page</h1>
+            <form id="login">
+                <input placeholder="USER NAME" type="text" id = "uname" name="uname"><br><br>
+                <input placeholder="PASSWORD" type = "password" id="pass" name="pass"><br><br>
+                <input type="submit" id="sbtn" name="sbtn" value="LOGIN" onclick = "checklogin();return false;">
+            </form>
+        </center>
+    </body>
+</html>

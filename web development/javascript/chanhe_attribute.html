@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            function myfun1()
+            {
+                document.getElementById('demo').src='images/white.png';
+            }
+            function myfun2()
+            {
+                document.getElementById('demo').src='images/black.png';
+
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+        <h1>changing attributes of image tag</h1>
+        <button onclick="myfun1()">change to white</button>
+        <marquee><img id="demo" src="images/black.png"></marquee>
+        <button onclick="myfun2()">change to black</button>
+        </center>
+
+    </body>
+</html>

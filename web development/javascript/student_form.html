@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Student registration form</title>
+	<script>
+		function changeDistrict()
+		{
+			let state = document.getElementById('state').value;
+			let district = document.getElementById('district')
+			
+			if(state == "kerala")
+			{
+				district.innerHTML += "<option>Palakkad</option>";
+				district.innerHTML += "<option>Thrissur</option>";
+				district.innerHTML += "<option>Kottayam</option>";
+				district.innerHTML += "<option>EKM</option>";
+			}
+
+			else if(state == "tamilnadu")
+			{
+				district.innerHTML += "<option>Ariyalur</option>";
+				district.innerHTML += "<option>Chengalpattu</option>";
+				district.innerHTML += "<option>Chennai</option>";
+				district.innerHTML += "<option>Coimbatore</option>";
+			}
+			else if(state == "karnataka")
+			{
+
+			}
+
+			else if(state == "andhra")
+			{
+
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<h1 align="center">Student Registration Form</h1>
+	<form >
+		Name &nbsp;&nbsp;<input type="text" name="name" id = "name" required><br><br>
+		Address &nbsp;&nbsp;<textarea rows="5" cols="50"></textarea><br><br>
+		State &nbsp;&nbsp;
+		<select id="state" onchange="changeDistrict()">
+            <option value="">--Select State--</option>
+            <option value="kerala">Kerala</option>
+            <option value="tamilnadu">Tamil Nadu</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="andhra">Andhra Pradesh</option>
+        </select>
+
+        <br><br>
+
+        District &nbsp;&nbsp;
+
+        <select id="district">
+            <option>--Select District--</option>
+        </select>
+		<br><br>
+		Gender &nbsp;&nbsp; Male<input type="radio" name="gender" id = "gender" required> Female<input type="radio" name="gender" id = "gender" required><br><br>
+		Languages Known &nbsp;&nbsp; 	
+			English<input type="checkbox"> 
+			MAlayalam<input type="checkbox"> 
+			French<input type="checkbox"> <br><br>
+		<button>submit</button> &nbsp; &nbsp;<input type="reset">
+	<form>
+</body>
+</html>
