@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio showcasing my background, skills, and software projects.">
+  <title>Your Name | Developer Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Your Name, home">YN<span>.</span></a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false"
+              aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme">
+          <span class="theme-icon" aria-hidden="true">☼</span>
+          <span class="theme-label">Light mode</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Available to learn and build</p>
+        <h1 id="hero-title">Hello, I'm <span class="text-muted">Your Name.</span><br>I build things for the web.</h1>
+        <p class="hero-description">
+          I'm a developer interested in creating useful, accessible, and thoughtfully designed digital experiences.
+          I enjoy turning ideas into working projects and learning new technologies along the way.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="assets/resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="social-links" aria-label="Social profiles">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="assets/profile.jpg" alt="Portrait of Your Name"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="photo-placeholder" aria-label="Profile photo placeholder">
+            <span class="placeholder-initials">YN</span>
+            <span class="placeholder-caption">Add your profile photo</span>
+          </div>
+        </div>
+        <div class="photo-note"><span class="note-line"></span> Curious mind. Practical builder.</div>
+        <span class="decor decor-one" aria-hidden="true"></span>
+        <span class="decor decor-two" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="section container" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">01 / A little about me</p>
+        <h2 id="about-title">Curiosity drives <span class="text-muted">my code.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead">I like understanding how things work—and using that understanding to create something useful.</p>
+        <div class="about-body">
+          <p>I'm building my foundation in software development through learning, experimentation, and hands-on projects. I value clean code, thoughtful user experiences, and steady improvement.</p>
+          <p>This portfolio is a snapshot of what I'm learning, what I've built, and the direction I want to grow in. Replace this text with your own story and interests.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="academics" aria-labelledby="academics-title">
+      <div class="section-heading">
+        <p class="eyebrow">02 / Education</p>
+        <h2 id="academics-title">My academic <span class="text-muted">journey.</span></h2>
+      </div>
+      <article class="education-card">
+        <div class="education-mark" aria-hidden="true">ED</div>
+        <div class="education-details">
+          <p class="card-kicker">Undergraduate degree</p>
+          <h3>Your Degree / Programme</h3>
+          <p class="text-muted">Your College or University</p>
+          <p class="small-copy">Year started – Expected graduation</p>
+          <p class="education-description">Add relevant coursework, academic interests, achievements, or activities here.</p>
+        </div>
+        <span class="education-status">In progress</span>
+      </article>
+    </section>
+
+    <section class="section container" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <p class="eyebrow">03 / Toolkit</p>
+        <h2 id="skills-title">Tools I work <span class="text-muted">with.</span></h2>
+        <p class="section-intro">A growing toolkit for building, styling, and solving problems.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-number">01</span>
+          <h3>Frontend</h3>
+          <p>HTML5 · CSS3 · JavaScript</p>
+          <p class="skill-note">Structure, responsive layouts, and interactive interfaces.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">02</span>
+          <h3>Programming</h3>
+          <p>Python · Java · C · C++ · C#</p>
+          <p class="skill-note">Programming fundamentals, logic, and problem solving.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">03</span>
+          <h3>Backend & data</h3>
+          <p>PHP · SQL · Databases</p>
+          <p class="skill-note">Server-side concepts and data-driven applications.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">04</span>
+          <h3>Tools & workflow</h3>
+          <p>Git · GitHub · VS Code</p>
+          <p class="skill-note">Version control, debugging, and iterative development.</p>
+        </article>
+      </div>
+      <p class="small-copy skills-disclaimer">Edit these lists to reflect your current experience and confidence level.</p>
+    </section>
+
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="eyebrow">04 / Selected work</p>
+        <h2 id="projects-title">Things I've <span class="text-muted">built.</span></h2>
+        <p class="section-intro">Show the problem, your approach, and what you learned—not just the technologies.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-topline"><span>PROJECT 01</span><span aria-hidden="true">↗</span></div>
+          <div class="project-art project-art-one" aria-hidden="true"><span class="art-window"><i></i><i></i><i></i><b>&lt; / &gt;</b></span></div>
+          <div class="project-content">
+            <h3>Personal Portfolio</h3>
+            <p>A responsive website to introduce myself, showcase my skills, and share selected work.</p>
+            <ul class="tag-list" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="project-links"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Source code ↗</a><a href="#contact">Ask me about it ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-topline"><span>PROJECT 02</span><span aria-hidden="true">↗</span></div>
+          <div class="project-art project-art-two" aria-hidden="true"><div class="mini-dashboard"><span></span><span></span><span></span><b></b></div></div>
+          <div class="project-content">
+            <h3>Project Name Two</h3>
+            <p>Describe the challenge this project addresses, the key features, and your contribution.</p>
+            <ul class="tag-list" aria-label="Technologies"><li>Technology</li><li>Technology</li></ul>
+            <div class="project-links"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Source code ↗</a><a href="#contact">Live demo ↗</a></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-topline"><span>PROJECT 03</span><span aria-hidden="true">↗</span></div>
+          <div class="project-art project-art-three" aria-hidden="true"><div class="mini-terminal"><span> $</span><span> building something useful...</span><b>_</b></div></div>
+          <div class="project-content">
+            <h3>Project Name Three</h3>
+            <p>Share a useful detail about the implementation, a problem solved, or a lesson learned.</p>
+            <ul class="tag-list" aria-label="Technologies"><li>Technology</li><li>Technology</li></ul>
+            <div class="project-links"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Source code ↗</a><a href="#contact">Live demo ↗</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact" aria-labelledby="contact-title">
+      <p class="eyebrow">05 / Get in touch</p>
+      <h2 id="contact-title">Have an idea? <span class="text-muted">Let's connect.</span></h2>
+      <p class="contact-copy">I'm open to conversations about projects, collaboration, and learning opportunities.</p>
+      <a class="button button-primary" href="mailto:your.email@example.com">your.email@example.com <span aria-hidden="true">↗</span></a>
+      <div class="contact-socials">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home">YN<span>.</span></a>
+      <p>Designed and built with HTML, CSS, and curiosity.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
